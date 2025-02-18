@@ -62,18 +62,18 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jTextField1" pref="449" max="32767" attributes="0"/>
+                  <Component id="txtResult" pref="449" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jTextField1" alignment="0" pref="106" max="32767" attributes="0"/>
+              <Component id="txtResult" alignment="0" pref="106" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JTextField" name="jTextField1">
+        <Component class="javax.swing.JTextField" name="txtResult">
         </Component>
       </SubComponents>
     </Container>
@@ -96,21 +96,33 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button2ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="button3">
           <Properties>
             <Property name="text" type="java.lang.String" value="3"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button3ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttonchia">
           <Properties>
             <Property name="text" type="java.lang.String" value="/"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonchiaActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttonmu2">
           <Properties>
             <Property name="text" type="java.lang.String" value="^2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonmu2ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="button4">
           <Properties>
@@ -132,7 +144,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="buttonnhan">
           <Properties>
-            <Property name="text" type="java.lang.String" value="*"/>
+            <Property name="text" type="java.lang.String" value="X"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="buttonphantram">
@@ -177,11 +189,17 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="+/-"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttonxoa">
           <Properties>
             <Property name="text" type="java.lang.String" value="C"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonxoaActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttontru">
           <Properties>
@@ -195,6 +213,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="="/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonbangActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
