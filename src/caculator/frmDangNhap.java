@@ -15,6 +15,9 @@ public class frmDangNhap extends javax.swing.JFrame {
      */
     public frmDangNhap() {
         initComponents();
+        txtResult.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        setLocationRelativeTo(null);
+        
     }
 
     /**
@@ -27,7 +30,7 @@ public class frmDangNhap extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
+        txtResult = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         button1 = new javax.swing.JButton();
         button2 = new javax.swing.JButton();
@@ -61,11 +64,11 @@ public class frmDangNhap extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 449, Short.MAX_VALUE))
+                .addComponent(txtResult, javax.swing.GroupLayout.DEFAULT_SIZE, 449, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 106, Short.MAX_VALUE)
+            .addComponent(txtResult, javax.swing.GroupLayout.DEFAULT_SIZE, 106, Short.MAX_VALUE)
         );
 
         jPanel2.setLayout(new java.awt.GridLayout(4, 5));
@@ -79,9 +82,19 @@ public class frmDangNhap extends javax.swing.JFrame {
         jPanel2.add(button1);
 
         button2.setText("2");
+        button2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(button2);
 
         button3.setText("3");
+        button3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(button3);
 
         buttonchia.setText("/");
@@ -99,9 +112,19 @@ public class frmDangNhap extends javax.swing.JFrame {
         jPanel2.add(button4);
 
         button5.setText("5");
+        button5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(button5);
 
         button6.setText("6");
+        button6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(button6);
 
         buttonnhan.setText("*");
@@ -111,12 +134,27 @@ public class frmDangNhap extends javax.swing.JFrame {
         jPanel2.add(buttonphantram);
 
         button7.setText("7");
+        button7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(button7);
 
         button8.setText("8");
+        button8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(button8);
 
         button9.setText("9");
+        button9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(button9);
 
         buttoncong.setText("+");
@@ -202,11 +240,13 @@ public class frmDangNhap extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void button0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button0ActionPerformed
-      // TODO add your handling code here:
+      String cmd = evt.getActionCommand();
+        txtResult.setText(txtResult.getText() + cmd);
     }//GEN-LAST:event_button0ActionPerformed
 
     private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
-        // TODO add your handling code here:
+        String cmd = evt.getActionCommand();
+        txtResult.setText(txtResult.getText() + cmd);
     }//GEN-LAST:event_button1ActionPerformed
 
     private void buttontruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttontruActionPerformed
@@ -214,7 +254,8 @@ public class frmDangNhap extends javax.swing.JFrame {
     }//GEN-LAST:event_buttontruActionPerformed
 
     private void button4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button4ActionPerformed
-        // TODO add your handling code here:
+        String cmd = evt.getActionCommand();
+        txtResult.setText(txtResult.getText() + cmd);
     }//GEN-LAST:event_button4ActionPerformed
 
     /**
@@ -277,7 +318,7 @@ public class frmDangNhap extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField txtResult;
     // End of variables declaration//GEN-END:variables
 }
