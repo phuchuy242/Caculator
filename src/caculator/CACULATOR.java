@@ -14,6 +14,7 @@ public class CACULATOR {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        (new frmDangNhap()).setVisible(true);
            }
     
 }
