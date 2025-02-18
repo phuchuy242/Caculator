@@ -29,33 +29,29 @@ public class frmDangNhap extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
-        jButton10 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
+        button1 = new javax.swing.JButton();
+        button2 = new javax.swing.JButton();
+        button3 = new javax.swing.JButton();
+        buttonchia = new javax.swing.JButton();
+        buttonmu2 = new javax.swing.JButton();
+        button4 = new javax.swing.JButton();
+        button5 = new javax.swing.JButton();
+        button6 = new javax.swing.JButton();
+        buttonnhan = new javax.swing.JButton();
+        buttonphantram = new javax.swing.JButton();
+        button7 = new javax.swing.JButton();
+        button8 = new javax.swing.JButton();
+        button9 = new javax.swing.JButton();
+        buttoncong = new javax.swing.JButton();
+        buttonphanso = new javax.swing.JButton();
+        button0 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
+        buttonxoa = new javax.swing.JButton();
+        buttontru = new javax.swing.JButton();
+        buttonbang = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -72,98 +68,87 @@ public class frmDangNhap extends javax.swing.JFrame {
             .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 106, Short.MAX_VALUE)
         );
 
-        jPanel2.setLayout(new java.awt.GridLayout(6, 4));
+        jPanel2.setLayout(new java.awt.GridLayout(4, 5));
 
-        jButton10.setText("%");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
+        button1.setText("1");
+        button1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
+                button1ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton10);
+        jPanel2.add(button1);
 
-        jButton12.setText("CE");
-        jPanel2.add(jButton12);
+        button2.setText("2");
+        jPanel2.add(button2);
 
-        jButton17.setText("C");
-        jPanel2.add(jButton17);
+        button3.setText("3");
+        jPanel2.add(button3);
 
-        jButton14.setText("<-");
-        jPanel2.add(jButton14);
+        buttonchia.setText("/");
+        jPanel2.add(buttonchia);
 
-        jButton3.setText("+");
-        jPanel2.add(jButton3);
+        buttonmu2.setText("^2");
+        jPanel2.add(buttonmu2);
 
-        jButton1.setText("1");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        button4.setText("4");
+        button4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                button4ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1);
+        jPanel2.add(button4);
 
-        jButton5.setText("2");
-        jPanel2.add(jButton5);
+        button5.setText("5");
+        jPanel2.add(button5);
 
-        jButton16.setText("3");
-        jPanel2.add(jButton16);
+        button6.setText("6");
+        jPanel2.add(button6);
 
-        jButton4.setText("4");
-        jPanel2.add(jButton4);
+        buttonnhan.setText("*");
+        jPanel2.add(buttonnhan);
 
-        jButton7.setText("-");
-        jPanel2.add(jButton7);
+        buttonphantram.setText("%");
+        jPanel2.add(buttonphantram);
 
-        jButton2.setText("5");
-        jPanel2.add(jButton2);
+        button7.setText("7");
+        jPanel2.add(button7);
 
-        jButton6.setText("6");
-        jPanel2.add(jButton6);
+        button8.setText("8");
+        jPanel2.add(button8);
 
-        jButton8.setText("7");
-        jPanel2.add(jButton8);
+        button9.setText("9");
+        jPanel2.add(button9);
 
-        jButton13.setText("8");
-        jPanel2.add(jButton13);
+        buttoncong.setText("+");
+        jPanel2.add(buttoncong);
 
-        jButton11.setText("X");
-        jPanel2.add(jButton11);
+        buttonphanso.setText("1/x");
+        jPanel2.add(buttonphanso);
 
-        jButton15.setText("9");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        button0.setText("0");
+        button0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                button0ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton15);
+        jPanel2.add(button0);
 
-        jButton9.setText("0");
+        jButton9.setText("+/-");
         jPanel2.add(jButton9);
 
-        jButton18.setText("x^2");
-        jPanel2.add(jButton18);
+        buttonxoa.setText("C");
+        jPanel2.add(buttonxoa);
 
-        jButton19.setText(".");
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
+        buttontru.setText("-");
+        buttontru.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
+                buttontruActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton19);
+        jPanel2.add(buttontru);
 
-        jButton20.setText("/");
-        jPanel2.add(jButton20);
-
-        jButton21.setText("(");
-        jPanel2.add(jButton21);
-
-        jButton22.setText(")");
-        jPanel2.add(jButton22);
-        jPanel2.add(jButton23);
-        jPanel2.add(jButton24);
-
-        jButton25.setText("=");
-        jPanel2.add(jButton25);
+        buttonbang.setText("=");
+        jPanel2.add(buttonbang);
 
         jLabel1.setText("Lịch Sử");
 
@@ -171,16 +156,19 @@ public class frmDangNhap extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(69, Short.MAX_VALUE))
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addComponent(jLabel1)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField2)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -201,31 +189,33 @@ public class frmDangNhap extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 242, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 242, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+    private void button0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button0ActionPerformed
       // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
+    }//GEN-LAST:event_button0ActionPerformed
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
+    }//GEN-LAST:event_button1ActionPerformed
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+    private void buttontruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttontruActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton19ActionPerformed
+    }//GEN-LAST:event_buttontruActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void button4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_button4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -263,35 +253,31 @@ public class frmDangNhap extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
+    private javax.swing.JButton button0;
+    private javax.swing.JButton button1;
+    private javax.swing.JButton button2;
+    private javax.swing.JButton button3;
+    private javax.swing.JButton button4;
+    private javax.swing.JButton button5;
+    private javax.swing.JButton button6;
+    private javax.swing.JButton button7;
+    private javax.swing.JButton button8;
+    private javax.swing.JButton button9;
+    private javax.swing.JButton buttonbang;
+    private javax.swing.JButton buttonchia;
+    private javax.swing.JButton buttoncong;
+    private javax.swing.JButton buttonmu2;
+    private javax.swing.JButton buttonnhan;
+    private javax.swing.JButton buttonphanso;
+    private javax.swing.JButton buttonphantram;
+    private javax.swing.JButton buttontru;
+    private javax.swing.JButton buttonxoa;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
 }
