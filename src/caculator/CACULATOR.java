@@ -18,5 +18,13 @@ public class CACULATOR {
     public static void main(String[] args) {
         (new frmDangNhap()).setVisible(true);
            }
+
+    void buttonnhanActionPerformed(ActionEvent evt) {
+        // TODO add your handling code here:
+    }
+
+    void buttontruActionPerformed(ActionEvent evt) {
+        // TODO add your handling code here:
+    }
     
 }
