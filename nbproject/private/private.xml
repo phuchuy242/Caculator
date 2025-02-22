@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
+            <file>file:/D:/code/JAVA/Caculator/src/caculator/CACULATOR.java</file>
+            <file>file:/D:/code/JAVA/Caculator/src/caculator/frmDangNhap.java</file>
+            <file>file:/D:/code/JAVA/Caculator/src/caculator/frmKhoiLuong.java</file>
+            <file>file:/D:/code/JAVA/Caculator/src/caculator/frmDoDai.java</file>
+=======
             <file>file:/D:/bainhom/baitapnhom%20app/baitapnhom%20app/Caculator/src/caculator/frmDangNhap.java</file>
+>>>>>>> 0541dc40c6d0602ac111106a168ae56d322dbbf1
         </group>
     </open-files>
 </project-private>
